@@ -1,0 +1,83 @@
+{
+  "name": "pcd-app",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "dependencies": {
+    "@expo-google-fonts/inter": "^0.4.2",
+    "@expo/dom-webview": "~56.0.6",
+    "@expo/metro-runtime": "~56.0.21",
+    "@expo/vector-icons": "^15.1.1",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "axios": "^1.17.0",
+    "expo": "~56.0.24",
+    "expo-constants": "~56.0.27",
+    "expo-device": "~56.0.4",
+    "expo-document-picker": "^56.0.4",
+    "expo-font": "~56.0.7",
+    "expo-haptics": "~56.0.3",
+    "expo-image-picker": "^56.0.25",
+    "expo-linear-gradient": "~56.0.4",
+    "expo-linking": "~56.0.19",
+    "expo-location": "~56.0.26",
+    "expo-notifications": "~56.0.26",
+    "expo-router": "~56.2.22",
+    "expo-secure-store": "~56.0.4",
+    "expo-splash-screen": "~56.0.16",
+    "expo-status-bar": "~56.0.4",
+    "expo-task-manager": "~56.0.27",
+    "expo-updates": "~56.0.28",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.85.3",
+    "react-native-calendars": "^1.1314.0",
+    "react-native-gesture-handler": "~2.31.1",
+    "react-native-paper": "^5.15.3",
+    "react-native-reanimated": "4.3.1",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "4.26.2",
+    "react-native-svg": "15.15.4",
+    "react-native-web": "^0.21.2",
+    "react-native-webview": "13.16.1",
+    "react-native-worklets": "0.8.3",
+    "socket.io-client": "^4.8.4",
+    "zustand": "^5.0.14"
+  },
+  "devDependencies": {
+    "@testing-library/react-native": "^14.0.1",
+    "@types/jest": "29.5.14",
+    "@types/node": "^26.6.6",
+    "@types/react": "~19.2.2",
+    "eslint": "^9.39.5",
+    "eslint-config-expo": "~56.0.4",
+    "eslint-plugin-react-native-a11y": "^3.5.1",
+    "jest": "~29.7.0",
+    "jest-expo": "~56.0.6",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "lint": "expo lint",
+    "test": "jest"
+  },
+  "private": true,
+  "jest": {
+    "preset": "jest-expo",
+    "setupFiles": [
+      "<rootDir>/jest.setup.js"
+    ]
+  },
+  "expo": {
+    "cli": {
+      "packageManager": "pnpm"
+    }
+  },
+  "packageManager": "pnpm@11.1.2+sha512.415a1cc25974731e75455c1468371be74c5aa5fb7621b50d4056d222451609f11412f23fd602e6169f1e060466641f798597e1be961a10688836a67b16569499",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "unrs-resolver"
+    ]
+  }
+}
